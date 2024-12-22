@@ -81,3 +81,71 @@ header nav a {
 .quote-section footer cite {
     font-weight: bold;
 }
+
+
+.videos-list {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.videos-list h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.videos-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videos-list ul li {
+    width: 280px;
+    margin: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.videos-list ul li img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #3498db;
+}
+
+.videos-list ul li .video-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.videos-list ul li .video-description {
+    font-size: 14px;
+    color: #666;
+    padding: 0 15px 15px;
+    margin-bottom: 15px;
+}
+
+.videos-list ul li a {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s;
+}
+
+.videos-list ul li a:hover {
+    background-color: #2980b9;
+}
