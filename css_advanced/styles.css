@@ -280,3 +280,46 @@ header nav a {
 .faq-section .faq-item .question:hover {
     color: #3498db;
 }
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+footer .footer-links {
+    margin-top: 20px;
+}
+
+footer .footer-links a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-social {
+    margin-top: 20px;
+}
+
+footer .footer-social a {
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .footer-social a:hover {
+    color: #3498db;
+}
