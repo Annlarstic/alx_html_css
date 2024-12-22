@@ -222,3 +222,61 @@ header nav a {
 .membership-option a:hover {
     background-color: #2980b9;
 }
+
+.faq-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.faq-section .faq-item {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.faq-section .faq-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-section .faq-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.faq-section .faq-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.faq-section .faq-item .answer {
+    display: none;
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.faq-section .faq-item.active .answer {
+    display: block;
+}
+
+.faq-section .faq-item .question {
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.faq-section .faq-item .question:hover {
+    color: #3498db;
+}
